@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+}
+
+body.bodybg-1{background: url(img/background1.jpg) 0% 0%/cover no-repeat;}
+body.bodybg-2{background: url(img/background2.jpg) 0% 0%/cover no-repeat;}
+body.bodybg-3{background: url(img/background3.jpg) 0% 0%/cover no-repeat;}
+body.bodybg-4{background: url(img/background4.jpg) 0% 0%/cover no-repeat;}
+body.bodybg-5{background: url(img/background5.jpg) 0% 0%/cover no-repeat;}
+body.bodybg-6{background: url(img/6.jpg) 0% 0%/cover no-repeat;}
+
+.nick {
+position: absolute;
+top:50%;
+left:50%;
+margin: 0;
+padding:20px;
+z-index:100;
+font-size: 100pt;
+font-weight: 900;
+color: rgb(175, 205, 207);
+text-shadow: 0 0px 20px #000000;
+transform: translate(-50%, -50%);
+}
+
+ul{
+  padding: 0;
+  margin: 0;
+}
+
+li{
+  padding: 10px;
+  margin: 0;
+  list-style-type: none;
+  display: inline;
+}
+
+a {
+	height: 58px;
+}
+
+.navbar-fixed{
+  margin: 10px
+}
+
+.image-icon{
+  position: relative;
+  margin-top: 0px;
+  height: 29px
+}
+
+#nav-box {
+position: absolute;
+padding: 0;
+left:50%;
+transform: translate(-50%);
+width: 300px;
+height: 58px;
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+top: -13px;
+padding-top: 18px;
+z-index: 1;
+border-radius: 20px;
+box-shadow: 1px 1px 35px rgba(255, 255, 255, 0.05);
+}
+
